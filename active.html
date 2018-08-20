@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>菜鸟动态页面案例</title>
+	<style>
+      div{
+      	width: 150px;height: 150px;background-color:red;border:1px solid green;
+      	border-radius: 10px;
+      	color:black;font-size: 20px;text-align: center;line-height: 150px;
+      	position: absolute;
+         margin:20px;
+
+      }
+
+	</style>
+</head>
+<body>
+	<div class="con">点击变化面积</div>
+	<script>
+         var div=document.getElementsByClassName('con')[0];
+             div.onclick=function (){
+             	div.style.width="400px";
+             	div.style.height="400px";
+             	div.style.backgroundColor='blue';
+             	div.style.textAlign='center';
+             	div.style.lineHeight='400px';
+             }
+	</script>
+</body
+</html>
